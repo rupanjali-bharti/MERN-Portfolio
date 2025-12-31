@@ -90,7 +90,7 @@ export const projects = [
     tech: ["React.js", "Tailwind CSS", "Framer Motion"],
     icons: [FaReact, FaCloud],
     demo: "#",
-    code: "#",
+    code: "https://github.com/rupanjali-bharti/MERN-Portfolio",
   },
   {
     title: "Recipe App",
@@ -98,8 +98,8 @@ export const projects = [
     image: projectImg2,
     tech: ["MongoDB", "Express.js", "React", "Node.js"],
     icons: [FaDatabase, FaNodeJs, FaReact],
-    demo: "#",
-    code: "https://github.com/rupanjali-bharti/Recipe-app",
+    demo: "https://food-lovers-spot.vercel.app/",
+    code: "https://github.com/rupanjali-bharti/FoodLovers",
   },
 
   {
