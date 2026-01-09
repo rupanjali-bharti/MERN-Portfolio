@@ -1,11 +1,11 @@
-import { FaLightbulb, FaPaintBrush, FaCode, FaReact, FaServer, FaMobileAlt, FaTools, FaNodeJs, FaStripe, FaVuejs, FaFire, FaDatabase, FaCloud, FaRobot } from 'react-icons/fa';
+import { FaLightbulb, FaPaintBrush, FaCode, FaReact, FaServer, FaMobileAlt,FaSearch, FaTools, FaNodeJs, FaStripe, FaVuejs, FaFire, FaDatabase, FaCloud, FaRobot } from 'react-icons/fa';
 import { FaBrain, FaChartLine } from 'react-icons/fa'
 
 import profile from '../assets/profile.jpg';
 import myimg from '../assets/myimg.jpg';
 import projectImg1 from '../assets/project1.avif';
 import projectImg2 from '../assets/project2.png';
-import projectImg3 from '../assets/project3.avif';
+import projectImg3 from '../assets/project3.png';
 import projectImg4 from '../assets/project4.jpg';
 import projectImg5 from '../assets/project5.avif';
 import projectImg6 from '../assets/project6.avif';
@@ -84,13 +84,14 @@ export const skills = [
 
 export const projects = [
   {
-    title: "Portfolio Website",
-    description: "A personal portfolio to showcase projects, skills, and experience with dark mode.",
-    image: projectImg4,
-    tech: ["React.js", "Tailwind CSS", "Framer Motion"],
-    icons: [FaReact, FaCloud],
+    title: "Automated Professor Profile Search using AI",
+    description:
+      "An AI-powered application that automatically searches, extracts, and organizes professor profiles from multiple academic sources using NLP and intelligent data processing.",
+    image: projectImg3,
+    tech: ["Python", "NLP-LLama", "Web Scraping", "REST APIs"],
+    icons: [FaReact],
     demo: "#",
-    code: "https://github.com/rupanjali-bharti/MERN-Portfolio",
+    code: "https://github.com/rupanjali-bharti/Automated-Professor-Profile-Search-using-Ai.git",
   },
   {
     title: "Recipe App",
@@ -110,16 +111,6 @@ export const projects = [
     icons: [FaReact, FaFire],
     demo: "#",
     code: "https://github.com/rupanjali-bharti/NewsApp",
-  },
-
-  {
-    title: "Fitness Tracker",
-    description: "A mobile app for tracking workouts, nutrition, and health metrics.",
-    image: projectImg3,
-    tech: ["React Native", "GraphQL", "MySQL", "Chart.js"],
-    icons: [FaReact, FaDatabase],
-    demo: "#",
-    code: "#",
   },
   
   {
