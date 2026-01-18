@@ -7,7 +7,7 @@ import projectImg1 from '../assets/project1.avif';
 import projectImg2 from '../assets/project2.png';
 import projectImg3 from '../assets/project3.png';
 import projectImg4 from '../assets/project4.jpg';
-import projectImg5 from '../assets/project5.avif';
+import projectImg5 from '../assets/project5.png';
 import projectImg6 from '../assets/project6.avif';
 
 
@@ -69,7 +69,7 @@ export const skills = [
     title: 'AI & Generative AI',
     icon: FaBrain,
     description: 'Building intelligent systems using machine learning and generative AI models.',
-    tags: ['Machine Learning', 'Deep Learning', 'LLMs', 'GenAI']
+    tags: ['Machine Learning', 'Deep Learning', 'LLMs', 'GenAI',"RAG", "Langchain"]
   },
 
   {
@@ -88,11 +88,21 @@ export const projects = [
     description:
       "An AI-powered application that automatically searches, extracts, and organizes professor profiles from multiple academic sources using NLP and intelligent data processing.",
     image: projectImg3,
-    tech: ["Python", "NLP-LLama", "Web Scraping", "REST APIs"],
+    tech: ["Python","Pandas", "NLP","Ollama", "Web Scraping","Spacy","Transformers", "REST APIs","MySql"],
     icons: [FaReact],
     demo: "#",
     code: "https://github.com/rupanjali-bharti/Automated-Professor-Profile-Search-using-Ai.git",
   },
+  {
+    title: "Multi-Model Document Intelligence RAG QA System",
+    description: "RAG system designed to answer questions from real-world, information-rich documents such as IMF Article IV reports, policy papers, and financial disclosures.",
+    image: projectImg5,
+    tech: ["Python","Multi-Modal RAG","LangChain","Hugging Face Inference API","Streamlit","Sentence-Transformers"],
+    icons: [FaReact, FaNodeJs, FaDatabase ],
+    demo: "#",
+    code: "https://github.com/rupanjali-bharti/Multi-model-Document-Intelligence-RAG-QA-system-",
+  },
+
   {
     title: "Recipe App",
     description: "A full-stack recipe application where users can browse, add, and manage recipes and with CRUD functionality.",
@@ -113,15 +123,6 @@ export const projects = [
     code: "https://github.com/rupanjali-bharti/NewsApp",
   },
   
-  {
-    title: "Chat App",
-    description: "A real-time chat application with group messaging, emojis, and file sharing.",
-    image: projectImg5,
-    tech: ["Socket.IO", "React", "Node.js", "MongoDB"],
-    icons: [FaReact, FaNodeJs, FaDatabase ],
-    demo: "#",
-    code: "#",
-  },
   {
     title: "AI Image Generator",
     description: "Generate images using AI prompts powered by OpenAI's DALL·E model and Cloudinary.",
