@@ -6,7 +6,7 @@ import myimg from '../assets/myimg.jpg';
 import projectImg1 from '../assets/project1.avif';
 import projectImg2 from '../assets/project2.png';
 import projectImg3 from '../assets/project3.png';
-import projectImg4 from '../assets/project4.jpg';
+import projectImg4 from '../assets/project4.png';
 import projectImg5 from '../assets/project5.png';
 import projectImg6 from '../assets/project6.avif';
 
@@ -102,13 +102,21 @@ export const projects = [
     demo: "#",
     code: "https://github.com/rupanjali-bharti/Multi-model-Document-Intelligence-RAG-QA-system-",
   },
-
+  {
+    title: "AI-Powered LinkedIn Post Generator",
+    description: "A Generative AI-based application that creates professional, structured LinkedIn posts using prompt engineering and large language models.",
+    image: projectImg4,
+    tech: ["Streamlit", "LangChain", "Google Gemini API", "Python"],
+    icons:  [FaRobot, FaBrain],
+    demo: "https://rupanjali-bharti-ai-powered-linkedin-post--postgenerator-ern5ax.streamlit.app/",
+    code: "https://github.com/rupanjali-bharti/AI-Powered-LinkedIn-Post-Generator-Streamlit-Gemini-LangChain-",
+  },
   {
     title: "Recipe App",
     description: "A full-stack recipe application where users can browse, add, and manage recipes and with CRUD functionality.",
     image: projectImg2,
     tech: ["MongoDB", "Express.js", "React", "Node.js"],
-    icons: [FaDatabase, FaNodeJs, FaReact],
+    icons: [FaReact, FaNodeJs, FaDatabase ],
     demo: "https://food-lovers-spot.vercel.app/",
     code: "https://github.com/rupanjali-bharti/FoodLovers",
   },
@@ -121,16 +129,6 @@ export const projects = [
     icons: [FaReact, FaFire],
     demo: "#",
     code: "https://github.com/rupanjali-bharti/NewsApp",
-  },
-  
-  {
-    title: "AI Image Generator",
-    description: "Generate images using AI prompts powered by OpenAI's DALL·E model and Cloudinary.",
-    image: projectImg6,
-    tech: ["React", "OpenAI API", "Cloudinary", "Tailwind CSS"],
-    icons: [FaRobot, FaReact, FaCloud],
-    demo: "#",
-    code: "#",
   }
 ];
 
@@ -166,28 +164,66 @@ export const workData = [
 
 export const workData = [
   {
+    role: "Project Trainee",
+    company: "Samsung PRISM – Samsung R&D India",
+    duration: "Jun 2025 - Present",
+    location: "Bengaluru, India",
+    mode: "Industry–Academia Collaboration",
+    type: "experience",
+    description:
+      "Worked on the Worklet ‘Automated Professor Profile Management’, building a system to search, extract, and manage academic profiles from multiple sources. Used LLM-based intelligent querying along with full-stack development to automate profile maintenance and improve faculty discovery efficiency.",
+    tech: [
+      "Generative AI",
+      "LLMs",
+      "NLP",
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "MySQL",
+      "Web Scraping"
+    ],
+    impact: "Reduced manual faculty search and profile maintenance effort by ~80% through automation.",
+    color: "indigo"
+  },
+
+  {
     role: "Computer Science Student",
     company: "B.Tech – Computer Science & Engineering",
     duration: "2023 - Present",
+    location: "India",
+    mode: "Full-time",
+    type: "education",
     description:
       "Pursuing a B.Tech in Computer Science & Engineering with a strong foundation in data structures, algorithms, operating systems, and database management systems.",
+    tech: [
+      "Data Structures",
+      "Algorithms",
+      "Operating Systems",
+      "DBMS",
+      "SQL"
+    ],
     color: "purple"
   },
-  {
-    role: "Academic Projects",
-    company: "University Coursework",
-    duration: "2023 - Present",
-    description:
-      "Developed multiple academic and personal projects including web applications using HTML, CSS, JavaScript, React, and basic backend integration. Focused on writing clean, maintainable code.",
-    color: "pink"
-  },
+
   {
     role: "Self-Learning & Skill Development",
     company: "Online Platforms & Practice",
     duration: "2022 - Present",
+    location: "Remote",
+    mode: "Self-paced",
+    type: "learning",
     description:
-      "Actively learning through online courses and coding practice. Strengthening problem-solving skills by working on DSA, SQL queries, and mini-projects while exploring new technologies.",
+      "Actively upskilling through online courses and hands-on practice. Strengthening problem-solving abilities with DSA, SQL, and mini-projects while continuously exploring new technologies.",
+    tech: [
+      "Problem Solving",
+      "DSA",
+      "SQL",
+      "JavaScript",
+      "React.js",
+      "AI & ML Basics"
+    ],
     color: "blue"
   }
 ];
+
 
