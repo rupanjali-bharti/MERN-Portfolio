@@ -122,7 +122,7 @@ export const projects = [
   },
 
   {
-    title: "News App",
+    title: "DevSheild",
     description: "A web-based news application that fetches and displays the latest headlines with category-wise filtering and a clean user interface.",
     image: projectImg1,
     tech: ["React", "News API", "Tailwind CSS"],
