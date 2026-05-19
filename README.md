@@ -1,4 +1,4 @@
-#Portfolio
+#My - Portfolio
 
 # MERN Portfolio 🚀
 
@@ -20,7 +20,7 @@ This portfolio highlights my projects, technical skills, and academic background
 **Frontend**
 - React.js
 - HTML5
-- CSS3
+- Tailwind css
 - JavaScript (ES6+)
 - Vite
 
